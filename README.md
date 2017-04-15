@@ -53,3 +53,18 @@ Get started:
 
 ## Part 1: End! 
 Once everyone in the classroom has reached this point, you may continue.
+
+## Part 2
+
+### Step 1 - JavaScript
+1. Set an `event listener` for the page calls the function *createLetters* on `keydown`
+2. Create a function called *createLetters* that:
+- Has the parameter e and prints this value to the console.
+- Creates a local variable called index and set it's value to 0.
+- Create a **for** loop that iterates through the array containing the letters of the alphabet
+- Inside this loop, have a conditional that checks if the iterated letter of the alphabet is the same as `e.key`, which is the fired key from the page
+- If the `e.key` is the same as `letters[i]`, then print to the console "They match".
+3. Create a function called *checkForWord* with parameter "letter"
+
+### Step 2 - Check for Errors
+- Let the instructor know if you have any errors!
