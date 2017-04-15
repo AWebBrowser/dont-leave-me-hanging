@@ -45,7 +45,7 @@ Get started:
 3. Declare a global variable and set its values as an empty strings. These will contain the randomized word we would have to guess.
 4. Declare an global variable and set it's value to an empty array. This will be used to modify the contents of the array.
 5. Create a function called startGame that:
-- Declare a variable with a randomized value using `Math.floor` and `Math.random()`
+- Declare a variable with a randomized value using `Math.floor` and `Math.random()`. Use this variable to randomly select a surprise word
 - Populates the innerHTML of the element with the id 'letters-container' using a **for** loop
 - Randomly selects a word from our word bank and populates the innerHTML of the element with the id 'word-container' with "-".
 - Pushes the content of the innerHTML into the empty array with an `array.push()` method using a **for** loop
