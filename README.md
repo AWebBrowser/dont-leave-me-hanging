@@ -34,7 +34,7 @@ Get started:
 3. Add a header tag in between the head elements
 4. Create three div elements inside the body of the page
 5. Assign an id to each element so they are labeled: "word-container", "letters-container", "guesses-container"
-
+ Ste
 ### Step 2 - CSS
 1. Create a border for each created element on the page
 2. Style the page!
@@ -45,9 +45,11 @@ Get started:
 3. Declare a global variable and set its values as an empty strings. These will contain the randomized word we would have to guess.
 4. Declare an global variable and set it's value to an empty array. This will be used to modify the contents of the array.
 5. Create a function called startGame that:
-- Populates the innerHTML of the element with the id 'letters-container'
+- Declare a variable with a randomized value using `Math.floor` and `Math.random()`
+- Populates the innerHTML of the element with the id 'letters-container' using a **for** loop
 - Randomly selects a word from our word bank and populates the innerHTML of the element with the id 'word-container' with "-".
-- Pushes the content of the innerHTML into the empty array.
+- Pushes the content of the innerHTML into the empty array with an `array.push()` method using a **for** loop
+- Call the function after it has been created.
 
 ## Part 1: End! 
 Once everyone in the classroom has reached this point, you may continue.
